@@ -1,0 +1,140 @@
+#top{
+    min-height: 400px;
+    #slider-top{
+        .owl-item{
+            .item{
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 800px;
+            }
+            .caption{
+                position: absolute;
+                top: 40%;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                h2{
+                    font-size: 7.2rem;
+                    font-weight: 300;
+                    color: #00c1e1;
+                    margin-bottom: 30px;
+                }
+                p{
+                    font-size: 1.6rem;
+                    line-height: 3rem;
+                    color: #242424;
+                    margin-bottom: 40px;
+                }
+                .button{
+                    padding: 18px 60px;
+                    background-color: transparent;
+                    &::after{
+                        background-image: url(../img/ico_arrow.png);
+                        top:19px;
+                    }
+                    &:hover{
+                        background-color: #ee3440;
+                        &::after{
+                            background-image: url(../img/ico_arrow_hover.png) !important;
+                        }
+                    }
+                }
+            }
+        } 
+        .owl-controls{
+            position: absolute;
+            width: 100%;
+            bottom: 30px;
+            .owl-pagination{
+                text-align: center;
+                .owl-page{
+                    background-color: #bebebe;
+                    height: 13px;
+                    width: 13px;
+                    border: 1px solid #bebebe;
+                    border-radius: 10px;
+                    display: inline-block;
+                    margin: 4px;
+                    &.active{
+                        border-color: #ee3440;
+                        background-color: transparent;
+                    }
+                    &:hover{
+                        border-color: #ee3440;
+                        background-color: transparent;    
+                    }
+                }   
+            }
+            .owl-buttons{
+                display: none;
+            }
+        }
+    }
+     
+}
+
+    
+    
+//    #slider-top{
+//        .carousel-inner{
+//           
+//            .item{  
+//                .carousel-caption{
+//                    text-align: left;
+//                    font-size: 1.6rem;
+//                    line-height: 3rem;
+//                    position: relative;
+//                    left: 0;
+//                    right: auto;
+//                    bottom: auto;
+//                    top: auto;
+//                    padding: 0;
+//                    text-shadow: none;
+//                    color: @mainColor;
+//                    h2{
+//                        font-size: 5.2rem;
+//                        line-height: 5.5rem;
+//                        text-transform: uppercase;
+//                        font-weight: 300;
+//                        margin-bottom: 35px;
+//                    }
+//                    .button{
+//                        margin-top: 30px;
+//                        padding: 11px 60px;
+//                        background-color: transparent;
+//                        &::after{
+//                            background-image: url(../img/ico_arrow.png);
+//                        }
+//                        &:hover{
+//                            background-color: #ee3440;
+//                            &::after{
+//                                background-image: url(../img/ico_arrow_hover.png) !important;
+//                            }
+//                        }
+//                        
+//                        
+//                    }
+//                }
+//            }     
+//        }
+//        .carousel-indicators{
+//            top: 20px;
+//            right: 20px;
+//            left: auto;
+//            bottom: auto;
+//            text-align: right;
+//            
+//            li{
+//                background-color: #c6c8c7;      
+//                border: 0;
+//                height: 13px;
+//                width: 13px;
+//                margin: 0;
+//                &.active{
+//                    background-color: #56553f;
+//                }
+//            }
+//            
+//        }
+//    }
