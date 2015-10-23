@@ -43,31 +43,28 @@
             }
         } 
         .owl-controls{
-            position: absolute;
-            width: 100%;
-            bottom: 30px;
-            .owl-pagination{
-                text-align: center;
-                .owl-page{
-                    background-color: #bebebe;
-                    height: 13px;
-                    width: 13px;
-                    border: 1px solid #bebebe;
-                    border-radius: 10px;
-                    display: inline-block;
-                    margin: 4px;
-                    &.active{
-                        border-color: #ee3440;
-                        background-color: transparent;
-                    }
-                    &:hover{
-                        border-color: #ee3440;
-                        background-color: transparent;    
-                    }
-                }   
-            }
             .owl-buttons{
-                display: none;
+                position: absolute;
+                left: 50%;
+                margin-left: -51px;
+                bottom: 20%;
+                div{
+                    background-color: #aebec0;
+                    width: 46px;
+                    height: 46px;
+                    border-radius: 35px;
+                    text-indent: -1000em;
+                    float: left;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    &.owl-prev{
+                        margin-right: 10px;
+                        background-image: url(../img/slider_arrow_prev.png);
+                    }
+                    &.owl-next{
+                        background-image: url(../img/slider_arrow_next.png);    
+                    }
+                }
             }
         }
     }
